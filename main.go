@@ -10,7 +10,7 @@ import (
 )
 
 var HitsCount = prometheus.NewCounter(prometheus.CounterOpts{
-	Name: "Call_total",
+	Name: "call_total",
 	Help: "Number of calls successfully processed.",
 })
 
